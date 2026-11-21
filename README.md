@@ -59,7 +59,7 @@ five-letter-word-game/
 
 Clone the repository:
 
-git clone https://github.com/ardadonmez05/five-letter-word-game.git
+```git clone https://github.com/ardadonmez05/five-letter-word-game.git```
 
 Navigate to the project directory:
 
