@@ -1,45 +1,46 @@
-Five Letter Word Game
+# Five Letter Word Game
 
 A browser-based five-letter word guessing game built with Python, Flask, HTML, CSS, and JavaScript.
 
-About
+## About
 
 This project is a Wordle-inspired word guessing game developed as a personal programming project to practice web development and frontend-backend communication.
 
 Players have six attempts to guess a hidden five-letter word. After each guess, the game provides color-coded feedback indicating which letters are correct and whether they are in the correct position.
 
-Features
+## Features
 
-Random five-letter word selection
+- Random five-letter word selection
 
-Six attempts per game
+- Six attempts per game
 
-Color-coded feedback (green, yellow, and grey)
+- Color-coded feedback (green, yellow, and grey)
 
-Duplicate-letter-aware feedback algorithm
+- Duplicate-letter-aware feedback algorithm
 
-Physical keyboard and on-screen keyboard support
+- Physical keyboard and on-screen keyboard support
 
-Input validation using a word list
+- Input validation using a word list
 
-Game state preservation after page refresh
+- Game state preservation after page refresh
 
-New game functionality
+- New game functionality
 
-Technologies Used
+## Technologies Used
 
-Python – Game logic and backend
+- Python – Game logic and backend
 
-Flask – Web application framework
+- Flask – Web application framework
 
-JavaScript – Frontend interactions and game state
+- JavaScript – Frontend interactions and game state
 
-HTML – Page structure
+- HTML – Page structure
 
-CSS – Styling and layout
+- CSS – Styling and layout
 
-Project Structure
+## Project Structure
 
+```
 five-letter-word-game/
 ├── app.py
 ├── game.py
@@ -52,8 +53,9 @@ five-letter-word-game/
 └── static/
     ├── script.js
     └── style.css
+```
 
-Installation and Setup
+## Installation and Setup
 
 Clone the repository:
 
@@ -61,32 +63,32 @@ git clone https://github.com/ardadonmez05/five-letter-word-game.git
 
 Navigate to the project directory:
 
-cd five-letter-word-game
+```cd five-letter-word-game```
 
 Create and activate a virtual environment:
 
-python -m venv venv
+```python -m venv venv```
 
 Windows:
 
-venv\Scripts\activate
+```venv\Scripts\activate```
 
 Install dependencies:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 Run the application:
 
-python app.py
+```python app.py```
 
 Open your browser and visit:
 
 http://127.0.0.1:5000
 
-Project Status
+## Project Status
 
 In development. More features and UI improvements are planned.
 
-Acknowledgements
+## Acknowledgements
 
 This is an independent educational project and is not affiliated with or endorsed by The New York Times or the original Wordle creator.
